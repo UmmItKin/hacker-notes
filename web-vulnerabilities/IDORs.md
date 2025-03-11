@@ -39,7 +39,40 @@ This vulnerability is very dangerous because it allows attackers to access sensi
 
 Those information should be protected and only accessible to the user who owns the data. But in wordpress, they are accessible to anyone who knows the user ID. which is a big security issue.
 
-Attack can launch a brute force attack to get the user ID and then access the user data. This API is worse than the previous example because it allows attackers to access all users' data, not just one user's data.
+```json
+{
+  "id": 10,
+  "name": "New name",
+  "url": "",
+  "description": "This is the new user description.",
+  "link": "https://hereis.wordpress/link",
+  "slug": "new-slug-123456",
+  "avatar_urls": {
+    "24": "//hereis.wordpress.com/wp-content/uploads/member/avatars/new-avatar-24.jpg",
+    "48": "//hereis.wordpress.com/wp-content/uploads/member/avatars/new-avatar-48.jpg",
+    "96": "//hereis.wordpress.com/wp-content/uploads/member/avatars/new-avatar-96.jpg"
+  },
+  "meta": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://hereis.wordpress.com/wp-json/wp/v2/users/10",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://hereis.wordpress.com/wp-json/wp/v2/users"
+      }
+    ]
+  }
+}
+```
 
+Attacker can launch a brute force attack to get the user ID and then access the user data. This API is worse than the previous example because it allows attackers to access all users' data, not just one user's data.
 
-Also, is that meaning you can write your own script to fetching all users' data by changing the user ID in the URL? A very serious vulnerability that should blocked by the developers.
+Also, is that meaning you can write your own script to fetching all users' data by changing the user ID in the URL? A very serious vulnerability that should blocked by the default.
