@@ -1,17 +1,6 @@
-## Cyber-playground
+## Cyber-notes
 
-I am a guy preparing for the OSCP exam, sharing my knowledge and experience in the field of penetration testing and red teaming. This is a place to collect and share my cybersecurity insights, especially in penetration testing and red teaming, including CTFs, write-ups, tools, scripts, and more. As I prepare for the OSCP exam, I will also share my notes and resources.
-
-### Table of Contents
-
-- TryHackMe
-- HackTheBox
-- OSCP
-- CEH
-- CTF Writeups
-- Pentest Tools
-- Pentest
-- Bug Bounty
+Sharing my knowledge and experience in the field of penetration testing and red teaming. This is a place to collect and share my cybersecurity insights, especially in penetration testing and red teaming, including CTFs, write-ups, tools, scripts, and more. As I prepare for the CPTS exam, I will also share my notes and resources.
 
 ## License
 
