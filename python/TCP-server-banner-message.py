@@ -25,3 +25,6 @@ def start_banner_service(host='0.0.0.0', port=31337):
 
 if __name__ == "__main__":
     start_banner_service()
+
+# to connect to the server and see the banner message, you can use:
+# nc -nv 127.0.0.1 31337 
