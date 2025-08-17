@@ -1,6 +1,6 @@
 # Penetration testing Cheatsheets
 
-Sharing my knowledge and experience in the field of penetration testing and red teaming. This is a place to collect and share my cybersecurity insights, especially in penetration testing and red teaming, including CTFs, write-ups, tools, scripts, and more. As I prepare for the CPTS exam, I will also share my notes and resources.
+Sharing my knowledge and experience in the field of penetration testing and red teaming. This is a place to collect and share my cybersecurity insights, especially in penetration testing and red teaming, including tools usage, cheatsheets and more. As I prepare for the CPTS exam, I will also share my notes and resources :)
 
 ## License
 
