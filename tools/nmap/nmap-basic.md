@@ -41,3 +41,9 @@ sudo nmap -Pn --disable-arp-ping -p53 -sU -sC <IP>
 ```bash
 sudo nmap -g53 --max-retries=1 -Pn -p- --disable-arp-ping <IP>
 ```
+
+### NMAP scripts (Banner)
+
+```bash
+sudo nmap -v 192.168.86.39 --script banner.nse
+```
