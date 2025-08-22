@@ -72,6 +72,8 @@ Host: example.com
 
 Directory traversal can be used to access files outside the intended directory.
 
+This alos known as Local File Inclusion (LFI) and `dot-dot-slash` attack.
+
 ```shell
 GET /upload.php?cmd=cat ../../../../etc/passwd
 Host: example.com
